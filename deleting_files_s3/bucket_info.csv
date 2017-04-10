@@ -1,0 +1,59 @@
+bucket_name, folder_name, naming_convention, notes 
+google-impression-2507573,,dt=MM-DD-YYYY.*.log
+google-click-2507573,,dt=MM-DD-YYYY.*.log
+google-activity-2507573,,dt=MM-DD-YYYY.*.log
+google-impression-archive-12,,dt=MM-DD-YYYY.Impression.log ,[only 22 files]
+google-click-archive-12,,dt=MM-DD-YYYY.click.log ,[4 empty buckets]
+google-activity-archive-12,,empty bucket
+google-activity-plus,,empty bucket
+google-activity-gsa,,dt=YYYYMMDD.gsa.log
+google-clicks-comp,,dt=YYYY-MM-DD ,[in there are the individual files]
+google-imps-compressed,,dt=YYYY-MM-DD ,[in there are the individual files]
+google-activity-compressed,,dt=YYYY-MM-DD ,[in there are the individual files]
+google-activity-plus-comp,,dt=YYYY-MM-DD ,[in there are the individual files]
+google-activity-gsa-comp,,dt=YYYY-MM-DD ,[in there are the individual files]
+google-activity-gsa-searches,activity,dt=YYYY-MM-DD ,[in there are the individual files] ,[one level up there are 42 other buckets with more sub buckets.]
+google-dbm-staging,advertiser*,dt=YYYYMMDD/* ,[not all advertisers are in S3] ,[sub folders have a very deep structure until there is the data]
+google-daily-freq,daily-freq,
+google-tailcutter,frequency_counts,
+google-tailcutter,list_uploads,
+google-tailcutter,list_uploads/global,
+google-tailcutter,google_freq,
+google-plus-working,reactivations,
+google-plus-working,reactivations_complete,
+google-plus-lists,,
+google-daily-freq,daily-freq,
+google-gsa-custom-metrics,user_usage,
+hp-dt-logs,uncompressed,,[there are also back dated and test buckets with old data in this bucket ]
+hp-dt-logs,uncompressed/EMEA/Impression,dt=MM-DD-YYYY.log
+hp-dt-logs,uncompressed/NA/Impression,dt=MM-DD-YYYY.log
+hp-dt-logs,uncompressed/APAC/Impression,dt=MM-DD-YYYY.log
+hp-dt-logs,uncompressed/EMEA/Click,dt=MM-DD-YYYY.log
+hp-dt-logs,uncompressed/NA/Click,dt=MM-DD-YYYY.log
+hp-dt-logs,uncompressed/APAC/Click,dt=MM-DD-YYYY.log
+hp-dt-logs,uncompressed/EMEA/Activity,dt=MM-DD-YYYY.log
+hp-dt-logs,uncompressed/NA/Activity,dt=MM-DD-YYYY.log
+hp-dt-logs,uncompressed/APAC/Activity,dt=MM-DD-YYYY.log
+hp-dt-logs,compressed,
+hp-dt-logs,compressed/EMEA/Impression,dt=YYYY-MM-DD/*
+hp-dt-logs,compressed/NA/Impression,dt=YYYY-MM-DD/*
+hp-dt-logs,compressed/EMEA/Click,dt=YYYY-MM-DD/*
+hp-dt-logs,compressed/NA/Click,dt=YYYY-MM-DD/*
+hp-dt-logs,compressed/EMEA/Activity,dt=YYYY-MM-DD/*
+hp-dt-logs,compressed/NA/Activity,dt=YYYY-MM-DD/*
+hp-dt-logs,compressed/APAC/Impression,dt=YYYY-MM-DD/*
+hp-dt-logs,compressed/APAC/Click,dt=YYYY-MM-DD/*
+hp-dt-logs,compressed/APAC/Activity,dt=YYYY-MM-DD/*
+hp-dt-logs,daily-freq,
+hp-turn-logs,uncompressed,dt=YYYYMMDD.essence_turn_standard.txt.gz
+hp-turn-logs,compressed,dt=YYYYMMDD/*
+essence-click-staging,,
+essence-imp-staging,,
+essence-activity-staging,,
+essence-dbm-staging,,
+ccp-staging,,
+essence-imps-comp,,
+essence-clicks-comp,,
+essence-activity-comp,,
+essence-apn-staging,,
+essence-ft-output,adometry,

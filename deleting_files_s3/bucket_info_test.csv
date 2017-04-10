@@ -1,0 +1,4 @@
+bucket_name, folder_name, naming_convention
+,,dt=MM-DD-YYYY.*.log
+ewok-303-dev-test,iso_dashes,dt=YYYY-MM-DD,
+ewok-303-dev-test,usa_dashes,dt=DD-MM-YYYY
